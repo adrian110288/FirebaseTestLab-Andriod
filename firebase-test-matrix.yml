@@ -1,0 +1,8 @@
+pixel2-device:
+  app: app/build/outputs/apk/debug/app-debug.apk
+  test: app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk 
+  type: instrumentation
+  timeout: 10m
+  device-ids: walleye #Pixel 2
+  os-version-ids: [28]
+  locales: en
